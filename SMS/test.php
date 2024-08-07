@@ -8,7 +8,7 @@
 </head>
 <body class="bg-slate-300 container">
     <center>
-    <div class="mt-40 flex justify-between md:p-6 lg:p-12 bg-white shadow-md rounded-xl px-8 w-1/2">
+    <div class="mt-40 flex justify-between md:p-6 lg:p-12 bg-white shadow-md rounded-xl w-1/2">
         <div class="mr-2 w-1/2 flex justify-start mt-6">
             <h1 class="text-4xl font-bold hover:text-cyan-950">Student Login</h1>
         </div>

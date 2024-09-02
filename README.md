@@ -46,8 +46,6 @@ This project is designed to simplify and streamline the daily operations of a sc
 This School Management System is built to foster a more organized and collaborative educational environment. Whether it's managing the academic calendar, communicating between faculty and students, or tracking student progress, this system provides a comprehensive solution to modern educational challenges.
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Built With
@@ -95,8 +93,6 @@ This place here is going to be filled by Busagala.js
 <p align="center"> login page
 <img src="Assets/screenshot12.png">
 </p>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
@@ -122,8 +118,6 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
@@ -135,9 +129,7 @@ Meet the team of students who made it happen
 - **Jesse Mbise - [@shelby9014](https://github.com/shelby9014) - Jessembise@gmail.com**
 
 
-Project Link: [https://github.com/avict18/SMS](https://github.com/avict18/SMS)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Project Link: [https://github.com/jeel-code1/AAAS-SMS](https://github.com/jeel-code1/AAAS-SMS)
 
 
 

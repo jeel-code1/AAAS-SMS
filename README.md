@@ -132,7 +132,7 @@ Meet the team of students who made it happen
 
 - **Justice Busagala - [@jeel-code1](https://github.com/jeel-code1) - justicebusagala5@gmail.com**
 - **Aaron Victor- [@avict18](https://github.com/avict18) - aaron.vic18@proton.me**
-- **Jesse Mbise - [@sehlby9014](https://github.com/shelby9014) - Jessembise@gmail.com**
+- **Jesse Mbise - [@shelby9014](https://github.com/shelby9014) - Jessembise@gmail.com**
 
 
 Project Link: [https://github.com/avict18/SMS](https://github.com/avict18/SMS)

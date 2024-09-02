@@ -130,8 +130,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## The Team
 Meet the team of students who made it happen
 
+- **Justice Busagala - [@jeel-code1](https://github.com/jeel-code1) - justicebusagala5@gmail.com**
 - **Aaron Victor- [@avict18](https://github.com/avict18) - aaron.vic18@proton.me**
-- **Justice Busagala - [@jeel-code1](https://github.com/jeel-code1) - email@gmail.com**
 - **Jesse Mbise - [@sehlby9014](https://github.com/shelby9014) - Jessembise@gmail.com**
 
 
@@ -148,9 +148,9 @@ The production team would like to acknowledge some individuals who have made inv
 
 - _**Mr. Gilbert Mtula**_
 - _**Mr. Godlisten Lema**_
-- _**Jeremiah Mbise**_
-- _**Iram Muddasir**_
-- _**Tesh Zackayo**_
+- _**Mr. Jeremiah Mbise**_
+- _**Ms. Iram Muddasir**_
+- _**Mr. Tesh Zackayo**_
 
 And much support from the Arusha science community for making this project possible.
 

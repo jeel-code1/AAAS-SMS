@@ -26,7 +26,7 @@
                       <div class="text-center">
                         <!---->
                         <h4 class="mb-12 mt-1 pb-1 text-4xl font-semibold">
-                          Student Login
+                          Staff Login
                         </h4>
                       </div>
       
@@ -36,13 +36,12 @@
                         <div class="relative mb-4" data-twe-input-wrapper-init>
                           <input
                             type="text"
-                            class="peer block min-h-[auto] w-full border-b-2 border-neutral-500 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
-                            id="exampleFormControlInput1"
-                            placeholder="Username" />
+                            class="peer block min-h-[auto] w-full border-b-2 border-neutral-500 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0" id="input1"
+                            placeholder="Username" required/>
                           <label
-                            for="exampleFormControlInput1"
+                            for="input1"
                             class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-400 dark:peer-focus:text-primary"
-                            >Login ID
+                            >Email  
                           </label>
                         </div>
       
@@ -51,10 +50,10 @@
                           <input
                             type="password"
                             class="peer block min-h-[auto] w-full border-b-2 border-neutral-500 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
-                            id="FormControlInput11"
-                            placeholder="Password" />
+                            id="input2"
+                            placeholder="Password" required/>
                           <label
-                            for="FormControlInput11"
+                            for="input2"
                             class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-400 dark:peer-focus:text-primary"
                             >Password
                           </label>
@@ -68,13 +67,13 @@
                             data-twe-ripple-init
                             data-twe-ripple-color="light"
                             style="
-                              background: linear-gradient(to left, #025376, #016e9c, #0185be, #01bafd);
+                              background: linear-gradient(to left, #025376, #016e9c, #0185be, #008ec2);
                             ">
                             Log in
                           </button>
       
                           <!--Login As staff link-->
-                          <a href="login.html">Login As Staff?</a>
+                          <a href="studentlogin.php">Login As Student</a>
                         </div>
                       </form>
                     </div>
@@ -83,17 +82,14 @@
                   <!-- Right column container with background and description-->
                   <div
                     class="flex items-center rounded-b-lg lg:w-6/12 lg:rounded-e-lg lg:rounded-bl-none"
-                    style="background: linear-gradient(to right, #025376, #016e9c, #0185be, #01bafd)">
-                    <!-- <img
-                          class="mx-auto w-48"
-                          src="logo.png"
-                          alt="logo" />  -->
+                    style="background: linear-gradient(to right, #025376, #016e9c, #0185be, #008ec2)">
                     <div class="px-4 py-6 text-white md:mx-6 md:p-12">
                       <h4 class="mb-6 text-2xl font-semibold">
                         Welcome to the school management system
                       </h4>
                       <p class="text-sm">
-                        Empowering students with confidence and competence, we pave the way for excellence. Where every learner is inspired, every achievement is celebrated.
+                        Empowering students with confidence and competence, we pave the way for excellence. Where every learner is 
+                        inspired, every achievement is celebrated.
                       </p>
                     </div>
                   </div>

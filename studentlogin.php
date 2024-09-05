@@ -26,7 +26,7 @@
                       <div class="text-center">
                         <!---->
                         <h4 class="mb-12 mt-1 pb-1 text-4xl font-semibold">
-                          Staff Login
+                          Student Login
                         </h4>
                       </div>
       
@@ -42,7 +42,7 @@
                           <label
                             for="exampleFormControlInput1"
                             class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-400 dark:peer-focus:text-primary"
-                            >Email  
+                            >Login ID
                           </label>
                         </div>
       
@@ -74,7 +74,7 @@
                           </button>
       
                           <!--Login As staff link-->
-                          <a href="studentlogin.html">Login As Student</a>
+                          <a onclick="slidePages" href="login.php">Login As Staff?</a>
                         </div>
                       </form>
                     </div>
@@ -84,13 +84,16 @@
                   <div
                     class="flex items-center rounded-b-lg lg:w-6/12 lg:rounded-e-lg lg:rounded-bl-none"
                     style="background: linear-gradient(to right, #025376, #016e9c, #0185be, #008ec2)">
+                    <!-- <img
+                          class="mx-auto w-48"
+                          src="logo.png"
+                          alt="logo" />  -->
                     <div class="px-4 py-6 text-white md:mx-6 md:p-12">
                       <h4 class="mb-6 text-2xl font-semibold">
                         Welcome to the school management system
                       </h4>
                       <p class="text-sm">
-                        Empowering students with confidence and competence, we pave the way for excellence. Where every learner is 
-                        inspired, every achievement is celebrated.
+                        Empowering students with confidence and competence, we pave the way for excellence. Where every learner is inspired, every achievement is celebrated.
                       </p>
                     </div>
                   </div>

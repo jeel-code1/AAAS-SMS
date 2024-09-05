@@ -91,8 +91,11 @@ This is how to get the project up and running on your machine
 <!-- USAGE EXAMPLES -->
 ## Usage
 Nothing to place here for now
-<p align="center"> login page
+<p align="center"> light-theme login page
 <img src="Assets/screenshot12.png">
+</p>
+<p align="center"> dark-theme login page
+<img src="Assets/image.png">
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

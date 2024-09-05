@@ -2,7 +2,7 @@
 <!-- PROJECT SHIELDS -->
 
 <div align="center">
-  <a href="https://github.com/avict18/SMS/LICENSE.txt">
+  <a href="https://github.com/jeel-code1/AAAS-SMS/LICENSE.txt">
     <img src="https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge" alt="Licence">
   </a>
 </div>
@@ -38,13 +38,15 @@ This project is designed to simplify and streamline the daily operations of a sc
 - **Point System:** Keeps track of individual students auxilliary points and has a report on these points.
 
 ### Technologies Used:
-- **Backend:** Django,PHP
-- **Frontend:** HTML,TailwindCSS,Bootstrap,Javascript
+- **Backend:** PHP
+- **Frontend:** HTML,TailwindCSS,Bootstrap, Javascript
 - **Database:** MySQL
 
 ### Purpose:
 This School Management System is built to foster a more organized and collaborative educational environment. Whether it's managing the academic calendar, communicating between faculty and students, or tracking student progress, this system provides a comprehensive solution to modern educational challenges.
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -53,7 +55,6 @@ These are the web technologies that our team of skilled students used to build t
 
 ![Tailwind CSS](https://readmebadge.vercel.app/badges/tailwind.svg)
 ![HTML](https://readmebadge.vercel.app/badges/html.svg)
-![Python](https://readmebadge.vercel.app/badges/python.svg)
 ![Javascript](https://readmebadge.vercel.app/badges/javascript.svg)
 
 
@@ -70,11 +71,11 @@ This is how to get the project up and running on your machine
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/jeel-code1/AAAS-SMS
+   git clone https://github.com/jeel-code1/AAAS-SMS.git
    ```
 2. Navigate into the Project folder and open it in your favourite editor
    ```sh
-   cd SMS
+   cd AAAS-SMS
    code .
    ```
 3. This is the procedure you follow just beforer you start modifying your styling classes
@@ -89,10 +90,12 @@ This is how to get the project up and running on your machine
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-This place here is going to be filled by Busagala.js
+Nothing to place here for now
 <p align="center"> login page
 <img src="Assets/screenshot12.png">
 </p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- CONTRIBUTING -->
@@ -120,16 +123,19 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 
+
 <!-- CONTACT -->
 ## The Team
 Meet the team of students who made it happen
 
-- **Justice Busagala - [@jeel-code1](https://github.com/jeel-code1) - justicebusagala5@gmail.com**
+- **Justice Busagala - [@jeel-code1](https://github.com/jeel-code1) - justicebusgala5@gmail.com**
 - **Aaron Victor- [@avict18](https://github.com/avict18) - aaron.vic18@proton.me**
-- **Jesse Mbise - [@shelby9014](https://github.com/shelby9014) - Jessembise@gmail.com**
+- **Jesse Mbise - [@shelby9014](https://github.com/shelby9014) - Jessembise90@gmail.com**
 
 
 Project Link: [https://github.com/jeel-code1/AAAS-SMS](https://github.com/jeel-code1/AAAS-SMS)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -138,8 +144,8 @@ Project Link: [https://github.com/jeel-code1/AAAS-SMS](https://github.com/jeel-c
 
 The production team would like to acknowledge some individuals who have made invaluable contributions towards production of the school management system
 
-- _**Mr. Gilbert Mtula**_
-- _**Mr. Godlisten Lema**_
+- _**Sir. Gilbert Mtula**_
+- _**Sir. Godlisten Lema**_
 - _**Mr. Jeremiah Mbise**_
 - _**Ms. Iram Muddasir**_
 - _**Mr. Tesh Zackayo**_

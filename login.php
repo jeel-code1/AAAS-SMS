@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SMS-LOGIN</title>
     <link rel="stylesheet" href="./styling/style.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
+
+
 <body class="bg-neutral-200 dark:bg-neutral-700">
     <section class="gradient-form h-screen ">
         <div class="contaDocumentiner h-full p-10 w-4/5 mx-auto">
@@ -100,5 +103,6 @@
           </div>
         </div>
       </section>
+      <script src="script.js"></script>
 </body>
 </html>

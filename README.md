@@ -70,7 +70,7 @@ This is how to get the project up and running on your machine
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/avict18/SMS.git
+   git clone https://github.com/jeel-code1/AAAS-SMS
    ```
 2. Navigate into the Project folder and open it in your favourite editor
    ```sh

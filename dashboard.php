@@ -110,6 +110,7 @@
                 style="background: linear-gradient(to right, #025376, #016e9c, #0185be, #01bafd);">Sign Out</button>
             </div>
         </div>
+        <!-- end of sidebar -->
 
         <!-- Main Content -->
         <div class="w-4/5 p-8 ml-3">
@@ -119,6 +120,7 @@
                     <h1 class="text-2xl font-semibold dark:text-white">Dashboard</h1>
                     <span class="text-gray-500 dark:text-gray-300">Home</span>
                 </div>
+                <!-- this place is supposed to be for profile and notifications button -->
                 <div class="flex items-center space-x-4">
                     <button class="p-2 rounded-full bg-gray-200">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -135,6 +137,7 @@
                         </svg>
                     </button>
                 </div>
+                <!-- it ends here -->
             </div>
 
             <!-- Dashboard Cards -->
@@ -210,6 +213,7 @@
             </div>
         </div>
     </div>
+    <!-- a footer is needed after here -->
 </body>
 
 </html>

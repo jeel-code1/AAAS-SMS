@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="styling/style.css">
+    <link rel="stylesheet" href="./styling/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-100 dark:bg-gray-700">
+<body class="bg-gray-100 dark:bg-gray-200">
 
     <div class="flex">
         <!-- Sidebar -->
@@ -115,25 +116,29 @@
         <!-- Main Content -->
         <div class="w-4/5 p-8 ml-3">
             <!-- Header -->
-            <div class="flex justify-between items-center mb-8">
+            <div class="flex justify-between items-center mb-8 bg-gray-700 rounded-md p-4">
                 <div>
-                    <h1 class="text-2xl font-semibold dark:text-white">Dashboard</h1>
+                    <h1 class="text-4xl font-semibold dark:text-white">Dashboard</h1>
                     <span class="text-gray-500 dark:text-gray-300">Home</span>
                 </div>
                 <!-- this place is supposed to be for profile and notifications button -->
+                 <!-- notifications -->
                 <div class="flex items-center space-x-4">
-                    <button class="p-2 rounded-full bg-gray-200">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M12 11c0 2.21-1.79 4-4 4S4 13.21 4 11s1.79-4 4-4 4 1.79 4 4zM8 15v5m4-10l6 6"></path>
+                    <button class="p-2 rounded-full bg-white text-black">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" 
+                        stroke-width="1.5" stroke="currentColor" class="size-6" 
+                        width="24" height="24">
+                            <path stroke-linecap="round" 
+                            stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
                         </svg>
                     </button>
-                    <button class="p-2 rounded-full bg-gray-200">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M12 11c0 2.21-1.79 4-4 4S4 13.21 4 11s1.79-4 4-4 4 1.79 4 4zM8 15v5m4-10l6 6"></path>
+                    <!-- this is for customizing the user account -->
+                    <button class="p-2 rounded-full bg- bg-white text-black">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" 
+                        stroke-width="1.5" stroke="currentColor" class="size-6" 
+                        width="24" height="24">
+                            <path stroke-linecap="round" 
+                            stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                         </svg>
                     </button>
                 </div>

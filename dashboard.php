@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./styling/style.css">
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
         <script     src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     </head>
 
 </head>
@@ -22,8 +23,8 @@
             <div class="p-2 rounded-xl text-2xl flex items-center space-x-1" >
                 <div class="flex rounded-xl items-center space-x mr-3 p-2 px-4 bg-white dark:bg-aaron-dark text-gray-400 shadow-lg" >
                     <ul class="flex items-center space-x-4">
-                        <a href="#" class="hover:text-black dark:hover:text-white"><li>Dashboard</li></a>
-                        <a href="#" class="hover:text-black dark:hover:text-white"><li>Voting</li></a>
+                        <a href="dashboard.php" class="hover:text-black dark:hover:text-white"><li>Dashboard</li></a>
+                        <a href="voting.php" class="hover:text-black dark:hover:text-white"><li>Voting</li></a>
                         <a href="#" class="hover:text-black dark:hover:text-white"><li>Result</li></a>
                         <!-- <a href="#"><li>points</li></a> -->
                         <a href="#" class="hover:text-black dark:hover:text-white"><li>Library</li></a>

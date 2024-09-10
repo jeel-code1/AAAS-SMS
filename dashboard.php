@@ -1,224 +1,290 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-    <link rel="stylesheet" href="./styling/style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+<html lang="en" class="">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./styling/style.css">
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        <script     src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
-
-<body class="bg-gray-100 dark:bg-gray-200">
-
-    <div class="flex">
-        <!-- Sidebar -->
-        <div class="w-1/5 bg-gray-800 h-screen p-5 flex flex-col justify-between ">
-            <div class="flex items-center mb-5">
-                <img src="Assets/dp.jpg" alt="User Image"
-                    class="rounded-full w-12 h-12 mr-3">
-                <span class="text-white font-semibold">Aaron Victor</span>
-            </div>
-            <div>
-                <nav>
-                    <ul class="my-auto">
-                    <li class="mb-4">
-                        <a href="#" class="flex items-center text-blue-500">
-                            <svg class="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
-                            </svg>
-                            Dashboard
-                        </a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="flex items-center text-white">
-                            <svg class="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
-                            </svg>
-                            Profile
-                        </a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="flex items-center text-white">
-                            <svg class="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
-                            </svg>
-                            Voting
-                        </a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="flex items-center text-white">
-                            <svg class="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
-                            </svg>
-                            Results
-                        </a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="flex items-center text-white">
-                            <svg class="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
-                            </svg>
-                            Timetable
-                        </a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="flex items-center text-white">
-                            <svg class="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
-                            </svg>
-                            Timetable
-                        </a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="flex items-center text-white">
-                            <svg class="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
-                            </svg>
-                            Library
-                        </a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="flex items-center text-white">
-                            <svg class="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
-                            </svg>
-                            Challenges
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-            
-            <div class="mt-auto">
-                <button class="bg-red-500 text-white py-2 px-4 w-full rounded hover:bg-red-600"
-                style="background: linear-gradient(to right, #025376, #016e9c, #0185be, #01bafd);">Sign Out</button>
-            </div>
-        </div>
-        <!-- end of sidebar -->
-
-        <!-- Main Content -->
-        <div class="w-4/5 p-8 ml-3">
-            <!-- Header -->
-            <div class="flex justify-between items-center mb-8 bg-gray-700 rounded-md p-4">
+</head>
+<body class=" bg-black text-white " >
+    <div class="px-6">
+        <nav class="flex items-center justify-between text-white mb-4 sticky">
+            <div class="p-2 rounded-xl text-2xl flex items-center space-x-1" style="background-color:#292828;">
                 <div>
-                    <h1 class="text-4xl font-semibold dark:text-white">Dashboard</h1>
-                    <span class="text-gray-500 dark:text-gray-300">Home</span>
+                    <svg width="24" height="24">
+                        <circle cx="12" cy="12" r="10" fill="white" />
+                    </svg>
                 </div>
-                <!-- this place is supposed to be for profile and notifications button -->
-                 <!-- notifications -->
-                <div class="flex items-center space-x-4">
-                    <button class="p-2 rounded-full bg-white text-black">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" 
-                        stroke-width="1.5" stroke="currentColor" class="size-6" 
-                        width="24" height="24">
-                            <path stroke-linecap="round" 
-                            stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
-                        </svg>
-                    </button>
-                    <!-- this is for customizing the user account -->
-                    <button class="p-2 rounded-full bg- bg-white text-black">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" 
-                        stroke-width="1.5" stroke="currentColor" class="size-6" 
-                        width="24" height="24">
-                            <path stroke-linecap="round" 
-                            stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                        </svg>
-                    </button>
+                <div>
+                    <h3 class="text-2xl font-semibold">Dashboard</h3>
                 </div>
-                <!-- it ends here -->
             </div>
-
-            <!-- Dashboard Cards -->
-            <div class="grid md:grid-cols-2 md:gap-4 grid-cols-1 gap-2 lg:grid-cols-3 lg:grid-gap-4">
-                <!-- Card 1 -->
-                <div class="p-5 bg-white rounded-lg shadow flex flex-col items-center">
-                    <div class="text-blue-500 mb-3">
-                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-2xl font-semibold">Notifications</h3>
-                    <span class="text-xl">3</span>
-                    <span class="text-green-500 mt-2">You have unread Announcemts</span>
+            <div class="p-2 rounded-xl text-2xl flex items-center space-x-1" >
+                <div class="flex rounded-xl items-center space-x mr-3 p-2 px-4" style="background-color:#292828;">
+                    <ul class="flex items-center space-x-4">
+                        <a href="#"><li>Dashboard</li></a>
+                        <a href="#"><li>Voting</li></a>
+                        <a href="#"><li>Result</li></a>
+                        <a href="#"><li>points</li></a>
+                        <a href="#"><li>Library</li></a>
+                        <a href="#"><li>Assignments</li></a>
+                    </ul>
                 </div>
-
-                <!-- Card 2 -->
-                <div class="p-5 bg-white rounded-lg shadow flex flex-col items-center">
-                    <div class="text-yellow-500 mb-3">
-                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
-                        </svg>
+                <div class="flex justify-between items-center space-x-1 p-2 rounded-xl" >
+                    <div>
+                        <img class="rounded-full w-9 h-9 border-1 border-white" src="Assets/logo.png" alt="dp">
                     </div>
-                    <h3 class="text-2xl font-semibold">Recent rank</h3>
-                    <span class="text-xl">2/52</span>
-                    <span class="text-green-500 mt-2">+5% higher than last month</span>
+                    <div>
+                        <h3 class="text-2xl">Arusha Science</h3>
+                    </div>
                 </div>
-
-                <!-- Card 3 -->
-                <div class="p-5 bg-white rounded-lg shadow flex flex-col items-center">
-                    <div class="text-green-500 mb-3">
-                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
-                        </svg>
+            </div>
+        </nav>
+        <div>
+            <button class="flex items-center space-x-2 p-2 rounded-xl" style="background-color:#292828;"">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" 
+                stroke-width="1.5" stroke="currentColor" class="size-6" width="12" heght="12">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                  </svg>
+                  back
+            </button>
+        </div>
+        <div class="w-full mt-3 flex flex-1 space-x-5">
+            <!-- card 1 for student info-->
+            <div class="h-5 w-1/4">
+                <div class="rounded-2xl p-3" style="background-color:#292828;">
+                    <!-- profile picture -->
+                    <div class="flex justify-between w-full p-3">
+                        <img class="rounded-full w-12 h-12 border-1 border-white" src="Assets/dp.jpg" alt="dp">
+                        <div>
+                            <p class="border-2 rounded-3xl p-1 border-emerald-300 text-emerald-300">Active</p>
+                        </div>
                     </div>
-                    <h3 class="text-2xl font-semibold">Auxiliary Points</h3>
-                    <span class="text-xl">192</span>
-                    <span class="text-green-500 mt-2">No point updates done</span>
+                    <!-- username -->
+                    <div class="pb-6">
+                        <h3 class="text-3xl font-semibold">Aaron Victor</h3>
+                    </div>
+                    <!-- data -->
+                    <div class="flex flex-col space-y-3 text-xl py-2">
+                        <div class="flex justify-between">
+                            <div class="text-gray-200 ">Class:</div>
+                            <div>
+                                <p class="font-bold ">Form 5</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-gray-200 ">Points:</div>
+                            <div class="font-bold">265 Pts</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-gray-200 ">Class rank:</div>
+                            <div class="font-bold">1 Out of 50</div>
+                        </div>
+                    </div>
+                    <!-- buttons -->
+                     <div class="py-3 flex items-center space-x-4">
+                         <button class="bg-zinc-700 px-2 py-1 rounded-3xl flex items-center space-x-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" 
+                            stroke-width="1.5" stroke="currentColor" class="size-6"
+                            width="18" height="18">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
+                              </svg>
+                            <div>
+                                Points
+                            </div>
+                        </button>
+                         <button class="bg-zinc-700 px-2 py-1 rounded-3xl flex items-center space-x-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" 
+                            stroke-width="1.5" stroke="currentColor" class="size-6"
+                            width="18" height="18">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                              </svg>
+                              
+                            <div>
+                                Class
+                            </div>
+                        </button>
+                         <button class="bg-zinc-700 px-2 py-1 rounded-3xl flex items-center space-x-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" 
+                            stroke-width="1.5" stroke="currentColor" class="size-6"
+                            width="18" height="18">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                              </svg>
+                              
+                            <div>Results</div>
+                        </button>
+                     </div>
                 </div>
-
-                <!-- Card 4 -->
-                <div class="p-5 bg-white rounded-lg shadow flex flex-col items-center">
-                    <div class="text-purple-500 mb-3">
-                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-2xl font-semibold">Assignments Pending</h3>
-                    <span class="text-xl">3</span>
-                    <span class="text-green-500 mt-2">+8% higher than last week</span>
+                <div class="py-2 flex items-center justify-between space-x-4 text-2xl font-bold ">
+                    <p>Latest Assignments</p>
+                    <button class="bg-zinc-700 rounded-3xl px-2 flex items-center space-x-1">
+                        <p class="font-normal">filter</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" 
+                        stroke-width="1.5" stroke="currentColor" class="size-6 font-bold"
+                        width="18" height="18">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                          </svg>
+                          
+                    </button>
                 </div>
+                <!-- assignments card -->
+                <div class="grid  gap-4 grid-cols-1 h-full">
+                    <!--  assignment card1 -->
+                      <a href="#">
+                        <div class="bg-zinc-800 h-40 w-full rounded-2xl p-3">
+                              <div class="flex justify-between py-2">
+                                  <div>
+                                      <div class="border-2 rounded-3xl p-1 border-yellow-300 flex items-center space-x-1">
+                                          <svg width="24" height="24" class="text-yellow-600">
+                                              <circle cx="12" cy="12" r="10" fill="yellow" />
+                                          </svg>
+                                          <p class="text-yellow-300">
+                                              Pending
+                                          </p>
+                                      </div>
+                                  </div>
+                                  <div>
+                                      <p class="text-zinc-500 text-xl font-semibold">February 13 2024</p>
+                                  </div>
+                              </div>
+                              <div class="font-bold text-xl mb-3">
+                                  Physics
+                              </div>
+                              <div class="text-lg text-zinc-500 mb-5 flex justify-between">
+                                  <p>Newtons laws of Motion</p>
+                                  <p>Mr. Khalfan</p>
+                              </div>
+                            </div>
+                      </a>
+                    <!-- assignment card2 -->
+                        <a href="#">
+                            <div class="bg-zinc-800 h-40 w-full rounded-2xl p-3">
+                            <div class="flex justify-between py-2">
+                                <div>
+                                    <div class="border-2 rounded-3xl p-1 border-green-800 flex items-center space-x-1">
+                                        <svg width="24" height="24" >
+                                            <circle cx="12" cy="12" r="10" fill="green" />
+                                        </svg>
+                                        <p class="text-green-500">
+                                            Accepted
+                                        </p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="text-zinc-500 text-xl font-semibold">October 8 2024</p>
+                                </div>
+                            </div>
+                            <div class="font-bold text-xl mb-3">
+                                Computer Science
+                            </div>
+                            <div class="text-lg text-zinc-500 mb-5 flex justify-between">
+                                <p>Data representation</p>
+                                <p>Mr. Gilbert</p>
+                            </div>
+                        </div>
+                    </a>
+                        <div class="border-4 border-zinc-500 hover:border-zinc-400 transition-colors delay-75 p-3 rounded-3xl text-center text-2xl font-bold ">
+                                <a href="#">View Assignments</a>
+                        </div>
+                </div>
+            </div>
+            <!-- card2 for analytics -->
+            <div class="h-full w-3/4">
+                <div class="h-5 w-full">
+                    <div class="rounded-2xl p-4" style="background-color:#292828;">
+                        <!-- title -->
+                        <div class="pb-6 flex items-center space-x-2">
+                            <h3 class="text-3xl font-semibold">Points analytics</h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" 
+                            stroke-width="1.5" stroke="currentColor" class="size-6 font-bold" 
+                            width="24" height="24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                              </svg>
+                        </div>
+                        <!-- end of title -->
+                         <!-- statistics summary -->
+                        <div class="flex items-center space-x-[10%] text-xl py-2">
+                            <div class="flex justify-between space-x-3">
+                                <div class="text-gray-200 text-6xl font-bold">265</div>
+                                <div class="text-zinc-500">
+                                    <p class="">Overall Total</p>
+                                    <p>points</p>
+                                </div>
+                            </div>
+                            <div class="flex justify-between space-x-3">
+                                <div class="text-gray-200 text-6xl font-bold">+15</div>
+                                <div class="text-zinc-500">
+                                    <p class="">Points</p>
+                                    <p>gained this week</p>
+                                </div>
+                            </div>
+                            <div class="flex justify-between space-x-3">
+                                <div class="text-gray-200 text-6xl font-bold">+12%</div>
+                                <div class="text-zinc-500">
+                                    <p class="">Overall Total</p>
+                                    <p>points increase</p>
+                                </div>
+                            </div>
+                        </div>
 
-                <!-- Card 5 -->
-                <div class="p-5 bg-white rounded-lg shadow flex flex-col items-center">
-                    <div class="text-gray-500 mb-3">
-                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
-                        </svg>
+                        <div class="w-[40%] h-[40%] mx-auto my-3">
+                            <canvas id="donut-chart"></canvas>
+                        </div>
                     </div>
-                    <h3 class="text-2xl font-semibold">Total Subjects</h3>
-                    <span class="text-xl">4</span>
-                    <span class="text-green-500 mt-2">You are not registered in any extras</span>
+                    <div class="border-4 border-zinc-500 hover:border-zinc-400 transition-colors delay-75 p-3 rounded-3xl text-center text-2xl font-bold mt-6">
+                        <a href="#">View Summary of Points</a>
+                </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- a footer is needed after here -->
-</body>
+    <script src="script.js"></script>
+    <!-- for the chart -->
+    <script>
+        var canvas = document.getElementById('donut-chart');
 
+        // Set the chart data
+        var data = {
+            labels: ['Week1', 'Week2', 'Week3', 'Week4', 'Week5', 'Week6', 'Week7'],
+            datasets: [{
+                label: 'Points',
+                data: [100, 109, 95, 110, 180, 216, 256],
+                backgroundColor: [
+                    '#EF4444',
+                    '#3B82F6',
+                    '#FBBF24',
+                    '#10B981',
+                    '#A78BFA',
+                    '#F59E0B'
+                ],
+                hoverOffset: 4
+            }]
+        };
+
+        // Set the chart options
+        var options = {
+            plugins: {
+                legend: {
+                    display: false
+                }
+            },
+            aspectRatio: 1,
+            cutout: '50%',
+            animation: {
+                animateRotate: true
+            }
+        };
+
+        // Create the chart
+        var chart = new Chart(canvas, {
+            type: 'doughnut',
+            data: data,
+            options: options
+        });
+    </script>
+</body>
 </html>

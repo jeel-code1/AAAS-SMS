@@ -98,7 +98,7 @@ Nothing to place here for now
 <img src="Assets/image.png">
 </p>
 <p align="center"> dashboard page
-<img src="Assets/dashboard.png">
+<img src="Assets/Dashboard.png">
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

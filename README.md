@@ -97,6 +97,9 @@ Nothing to place here for now
 <p align="center"> dark-theme login page
 <img src="Assets/image.png">
 </p>
+<p align="center"> dashboard page
+<img src="Assets/dashboard.png">
+</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
